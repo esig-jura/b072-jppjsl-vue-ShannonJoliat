@@ -129,9 +129,10 @@ footer {
     align-content: space-evenly;
     justify-content: center;
     padding: 0;
+    list-style: none;
 }
 
-.page-accueil .sabres .sabre {
+.page-accueil .sabres li {
     overflow: hidden;
     flex: 2 0 300px;
     padding: 0;
@@ -143,21 +144,21 @@ footer {
     background-color: #e72854;
 }
 
-.page-accueil .sabres .sabre:hover {
+.page-accueil .sabres li:hover {
     box-shadow: 0 0.03rem 0.06rem rgba(0, 0, 0, 0.6), 0 0.1rem 0.3rem rgba(0, 0, 0, 0.6);
     background-color: #6bbbda;
 }
 
-.page-accueil .sabres .sabre.rupture {
+.page-accueil .sabres li.rupture {
     background-color: #27282a;
 }
 
-.page-accueil .sabres .sabre figure {
+.page-accueil .sabres figure {
     padding: 0;
     margin: 0;
 }
 
-.page-accueil .sabres .sabre figcaption {
+.page-accueil .sabres figcaption {
     padding: 1rem;
     color: white;
 }
